@@ -4,7 +4,11 @@ namespace FYPfinalWEBAPP.Controllers
 {
   public class HomeController : Controller
   {
-    public String Index() => "FYPfinalWEBAPP Home";
+//    public String Index() => "FYPfinalWEBAPP Home";
+      public IActionResult Index()
+        {
+            return View();
+        }
   }
 }
 

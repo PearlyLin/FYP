@@ -60,7 +60,6 @@ public class AccountController : Controller
     {
         principal = null!;
         
-        // TODO Lesson08 Task 1 - Provide login SELECT statement.
         string sql = @"SELECT * FROM TravelUser WHERE UserId = '{0}'
                        AND UserPw = HASHBYTES('SHA1','{1}')";
         string select = string.Format(sql, uid, pw);

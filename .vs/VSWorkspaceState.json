@@ -1,4 +1,10 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\FYP app",
+    "\\FYP app\\Controllers",
+    "\\FYP app\\Models"
+  ],
+  "SelectedNode": "\\FYP app\\FYPfinalWEBAPP.sln",
   "PreviewInSolutionExplorer": true
 }

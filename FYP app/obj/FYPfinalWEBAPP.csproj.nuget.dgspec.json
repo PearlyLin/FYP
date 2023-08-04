@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\21022677\\Source\\Repos\\FYP\\FYP app\\FYPfinalWEBAPP.csproj": {}
+    "C:\\Users\\21022677\\Source\\Repos\\PearlyLin\\FYP\\FYP app\\FYPfinalWEBAPP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\21022677\\Source\\Repos\\FYP\\FYP app\\FYPfinalWEBAPP.csproj": {
+    "C:\\Users\\21022677\\Source\\Repos\\PearlyLin\\FYP\\FYP app\\FYPfinalWEBAPP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\21022677\\Source\\Repos\\FYP\\FYP app\\FYPfinalWEBAPP.csproj",
+        "projectUniqueName": "C:\\Users\\21022677\\Source\\Repos\\PearlyLin\\FYP\\FYP app\\FYPfinalWEBAPP.csproj",
         "projectName": "FYPfinalWEBAPP",
-        "projectPath": "C:\\Users\\21022677\\Source\\Repos\\FYP\\FYP app\\FYPfinalWEBAPP.csproj",
+        "projectPath": "C:\\Users\\21022677\\Source\\Repos\\PearlyLin\\FYP\\FYP app\\FYPfinalWEBAPP.csproj",
         "packagesPath": "C:\\Users\\21022677\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\21022677\\Source\\Repos\\FYP\\FYP app\\obj\\",
+        "outputPath": "C:\\Users\\21022677\\Source\\Repos\\PearlyLin\\FYP\\FYP app\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -45,9 +45,33 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "RockLib.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
-              "version": "[4.8.3, )"
+              "version": "[4.8.5, )"
             }
           },
           "imports": [

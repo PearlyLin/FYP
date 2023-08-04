@@ -1,5 +1,8 @@
 using System;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Razor.Compilation;
+
 namespace FYPfinalWEBAPP.Controllers
 {
   public class HomeController : Controller
@@ -7,7 +10,7 @@ namespace FYPfinalWEBAPP.Controllers
 //    public String Index() => "FYPfinalWEBAPP Home";
       public IActionResult Index()
         {
-            return View();
+            return View("~/Views/Account/Login.cshtml");
         }
   }
 }

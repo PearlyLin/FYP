@@ -5,11 +5,14 @@
 
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
+#we are exposing a port, this is not necessary but can be added, this tells the user which port they should use
 EXPOSE 80
 EXPOSE 443
 
+#this is the base image
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
+#we are coping the source(which is our application) to destination(the image)
 COPY ["FYPfinalWEBAPP.csproj", "."]
 RUN dotnet restore "./FYPfinalWEBAPP.csproj"
 COPY . .
